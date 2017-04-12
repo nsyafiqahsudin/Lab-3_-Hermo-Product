@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HERMO Product List</title>
+	<script src="js/jquery-3.1.1.min.js"></script>
+
+	<script>
+	$(document).ready(function() {
+		Transform(); 
+	});
+	</script>
+</head>
+
+<body>
+
+<div id="product"></div>
+
+	<script>
+	function Transform() {
+		  // Download XML data from the server side.
+		  var xml = getXMLData("product.php");
+
+		  // Get XSL template at the client side.
+		  var xsl = getXMLData("product_list.xsl");
+
+		  // Only for Mozilla based browsers.
+		  xsltProcessor = new XSLTProcessor();
+		  xsltProcessor.importStylesheet(xsl);
+		  var result = xsltProcessor.transformToFragment(xml, document);
+
+		  $("#product").append(result);
+		
+		}
+
+		function getXMLData(url){
+			return $.ajax({type: "GET",
+				url: url,
+				async: false}).responseXML;
+		}
+</script>
+
+</body>
+</html>

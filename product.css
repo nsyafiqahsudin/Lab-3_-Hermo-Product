@@ -1,0 +1,19 @@
+<style>
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+</style>
+
+#product {
+    font:14px Garamond;
+    width:auto;
+    text-align:center;
+    margin:1px;
+    padding:2px 5px;
+    letter-spacing:1px; 
+    
+}

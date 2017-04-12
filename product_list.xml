@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="product_list.xsl"?>
+<product_list>
+
+  <product dev="JS">
+    <name>Peripera</name>
+    <price>RM39.90</price>
+    <description>Airy Ink Velvet 8g.</description>
+    <image>img/peripera.png</image>
+     
+  </product >
+
+  <product  dev="JS">
+    <name>April Skin </name>
+    <price>RM144.00</price>
+    <description>April Skin Rose Glam Moisture Cover Foundation 29g.</description>
+    <image>img/april_skin.png</image>
+  
+  </product>
+
+<product dev="JS">
+    <name>NYX Soft Matte Lip Cream</name>
+    <price>RM33.00</price>
+    <description>Their velvety smooth delivers a burst of creamy color.</description>
+    <image>img/NYX_matte.png</image>
+    
+  </product>
+
+  <product dev="JS">
+    <name>April Skin Magic Snow Cushion Black 2.0 </name>
+    <price>RM89.00</price>
+    <description>Long-lasting Magic Snow Cushion gives a skin smooth, flawless and velvety complexion.
+    </description>
+    <image>img/magic_snow.png</image>
+    
+  </product>
+
+
+<product dev="JS">
+    <name>Silkygirl Go Matte Lipcolor</name>
+    <price>RM19.90</price>
+    <description>Formulated with Shea Butter, Safflower oil and Papaya extract to moisturize, nourish and smoothen lips.</description>
+    <image>img/silky_girl.png</image>
+   
+  </product>
+
+  <product dev="JS">
+    <name>NYX Sweet Cheeks Blush Palette</name>
+    <price>RM100.00</price>
+    <description>Get swept away by our drop-dead gorgeous Sweet Cheeks Blush Palette.</description>
+    <image>img/blush_palette.png</image>
+    
+  </product>
+
+   <product dev="JS">
+    <name>Anna Sui La Vie De Boheme EDT</name>
+    <price>RM233.02</price>
+    <description>Capturing the energy and creativity of La Vie de Bohème.</description>
+    <image>img/anna_sui.png</image>
+    
+  </product>
+
+   <product dev="JS">
+    <name>LOreal Extraordinary Oil Pink</name>
+    <price>RM41.37</price>
+    <description>Precious french rose oil for supreme smooth hair with lustrous shine.</description>
+    <image>img/loreal_oil.png</image>
+    
+  </product>
+
+
+</product_list>
